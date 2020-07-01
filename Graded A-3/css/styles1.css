@@ -1,0 +1,87 @@
+body {
+  font-size: 16px;
+  color: #ffffff;
+  background-color: lightblue;
+  font-family: "Oswald", sans-serif;
+}
+
+/** Header **/
+#header-nav {
+  background-color: blue;
+  border-radius: 0;
+  border: 1px solid black;
+}
+
+.navbar-brand {
+  padding-top: 50px;
+}
+.navbar-brand h2 {
+  /* Name of the assignment */
+  font-family: "Lora", serif;
+  color: #ffffff;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 0.75;
+  position: absolute;
+  left: 5px;
+  top: 20px;
+  padding-left: 15px;
+  text-align: center;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+#nav-list a :active {
+  color: black;
+}
+#nav-list a:hover {
+  background: lightblue;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+  border: 2px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+/* MAIN BODY START */
+.text-center {
+  /* OUR MENU */
+  color: black;
+  padding: 20px;
+  font-size: 20px;
+  text-decoration: none;
+}
+/*FIRST BOX (CHICKEN)*/
+.box-1 {
+  text-align: center;
+  background-color: grey;
+  margin: auto;
+  padding: 2px 2px 2px 2px;
+  height: 1000px;
+  border: 1px solid black;
+}
+.header {
+  color: black;
+  text-align: center;
+  background-color: grey;
+}
+.content {
+  background-color: grey;
+  color: black;
+  font-family: 'Acme', sans-serif;
+}
+
